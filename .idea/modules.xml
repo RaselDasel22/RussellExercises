@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RussellExercises.iml" filepath="$PROJECT_DIR$/RussellExercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson03exercises/Static_Methods_Exercises.iml" filepath="$PROJECT_DIR$/lesson03exercises/Static_Methods_Exercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson01exercises/lesson01exercises.iml" filepath="$PROJECT_DIR$/lesson01exercises/lesson01exercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson02exercises/lesson02exercises.iml" filepath="$PROJECT_DIR$/lesson02exercises/lesson02exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson03exercises/lesson03exercises.iml" filepath="$PROJECT_DIR$/lesson03exercises/lesson03exercises.iml" />
     </modules>
   </component>
 </project>
