@@ -23,7 +23,7 @@ public class TestMyTime
      time.setMinute(minute);
      time.setSecond(second);
 
-     System.out.println(time.toString());
+     System.out.println(time);
     }
 
 }

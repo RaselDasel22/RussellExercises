@@ -35,7 +35,7 @@ public class MyTime
         String MM = minute < 10 ? ("0" + minute): String.valueOf(minute);
         String SS = second < 10 ? ("0" + second): String.valueOf(second);
 
-        return "The time is "+"'"+HH+":"+MM+":"+SS+"'";
+        return "The time is " + "'" + HH + ":" + MM + ":" + SS + "'";
 
     }
 
