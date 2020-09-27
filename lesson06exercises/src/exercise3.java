@@ -21,15 +21,12 @@ public class exercise3 {
         System.out.println("Hi "+secondPlayer+"! Please choose (1 - rock, 2 - scissors, or 3 - paper):");
         player2attack = user2attack.nextInt();
 
-        if ((player1attack==1 && player2attack==2)
+        if (player1attack==player2attack){System.out.println("It's a tie!");}
+        else if ((player1attack==1 && player2attack==2)
             || (player1attack==2 && player2attack==3)
             || (player1attack==3 && player2attack==1))
                 {System.out.println(firstPlayer+" Wins!");}
-        else if ((player1attack==1 && player2attack==3)
-            || (player1attack==2 && player2attack==1)
-            ||  (player1attack==3 && player2attack==2))
-                {System.out.println(secondPlayer+" Wins!");}
-        else {System.out.println("It's a tie!");}
+        else {System.out.println(secondPlayer+" Wins!");}
 
     }
 }
