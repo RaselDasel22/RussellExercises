@@ -8,15 +8,6 @@ public Couple(person groom, person bride){
     this.bride = bride;
 }
 
-    public person getGroom() {
-
-        return groom;
-    }
-
-    public person getBride() {
-        return bride;
-    }
-
     public String toString(){
         return groom + " and " + bride;
     }
