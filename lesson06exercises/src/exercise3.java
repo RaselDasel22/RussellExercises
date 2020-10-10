@@ -23,10 +23,10 @@ public class exercise3 {
 
         if (player1attack==player2attack){System.out.println("It's a tie!");}
         else if ((player1attack==1 && player2attack==2)
-            || (player1attack==2 && player2attack==3)
-            || (player1attack==3 && player2attack==1))
-                {System.out.println(firstPlayer+" Wins!");}
-        else {System.out.println(secondPlayer+" Wins!");}
+              || (player1attack==2 && player2attack==3)
+              || (player1attack==3 && player2attack==1))
+              {System.out.println(firstPlayer+" Wins!");}
+        else  {System.out.println(secondPlayer+" Wins!");}
 
     }
 }
