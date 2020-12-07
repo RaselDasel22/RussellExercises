@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ArrayMethodDemo {
-    static int[] userInput= new int[3];
+    static int[] userInput= new int[8];
     static int userChose;
 
 
@@ -22,6 +22,7 @@ public class ArrayMethodDemo {
                 "\n(6) Exit."+
                 "\nPlease choose from 1-6: ");
         userChose = user.nextInt();
+
         if (userChose==1){
             displayAll();
         }
@@ -42,14 +43,18 @@ public class ArrayMethodDemo {
     }
 
     static void displayAll(){
+        int inputNum = 1;
         for (int i = 0; i < userInput.length; i++){
-            System.out.println(userInput[i]);
+            System.out.println("Number "+inputNum+": "+ userInput[i]);
+            inputNum++;
         }
     }
 
     static void displayReverse(){
-        for (int lastNum = 2; lastNum>=0; lastNum--) {
-            System.out.println(userInput[lastNum]);
+        int inputNum = 8;
+        for (int i = 7; i>=0; i--) {
+            System.out.println("Number "+inputNum+": "+ userInput[i]);
+            inputNum--;
         }
     }
 
@@ -68,7 +73,7 @@ public class ArrayMethodDemo {
         for (int i=0; i<userInput.length; i++){
             sum = sum + userInput[i];
         }
-        int average = sum/userInput.length;
+        double average = sum/userInput.length;
         System.out.println("Average: " + average);
 
         for (int i=0; i<userInput.length; i++){
